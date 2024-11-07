@@ -4,6 +4,8 @@ from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
 from todo import models
 from todo.models import TODOO
+from django.contrib.auth.decorators import login_required
+
 
 
 
