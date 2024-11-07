@@ -5,7 +5,7 @@ from django.contrib.auth import authenticate, login, logout
 from todo import models
 from todo.models import TODOO
 from django.contrib.auth.decorators import login_required
-
+@login_required(login_url='/login')
 
 
 
